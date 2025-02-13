@@ -1,0 +1,26 @@
+{
+    "custom/launcher": {
+        "format": " \udb82\udcc7 ",
+        "on-click": "rofi -show drun",
+    },
+
+    "hyprland/workspaces": {
+        "all-outputs": true,
+        "format": "{name}",
+        "on-scroll-up": "hyprctl dispatch workspace e+1 1>/dev/null",
+        "on-scroll-down": "hyprctl dispatch workspace e-1 1>/dev/null",
+        "sort-by-number": true,
+        "active-only": false
+    },
+
+    "tray": {
+        "spacing": 10
+    },
+
+    "clock": {
+        "format": "󰃭 {:%a %b %d %Y %I:%M %p}",
+        "interval": 1,
+        "timezone": "America/Costa_Rica",
+        "tooltip": false,
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "theme.bar.border.location": "none",
+  "bar.launcher.autoDetectIcon": false,
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.showWsIcons": false,
+  "bar.workspaces.showApplicationIcons": false,
+  "theme.font.size": "1.0rem",
+  "theme.font.name": "Iosevka Nerd Font Mono",
+  "theme.font.label": "Iosevka Nerd Font Mono Medium",
+  "theme.bar.floating": true,
+  "theme.bar.location": "top",
+  "bar.autoHide": "never",
+  "theme.bar.buttons.enableBorders": true,
+  "theme.bar.border_radius": "0.8em",
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.monitorSpecific": false,
+  "bar.workspaces.applicationIconOncePerWorkspace": false,
+  "bar.workspaces.numbered_active_indicator": "underline",
+  "bar.layouts": {
+    "*": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "wallpaper.pywal": false,
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.transparent": true,
+  "menus.media.noMediaText": "No Media Currently Playing",
+  "menus.media.displayTimeTooltip": false,
+  "menus.media.displayTime": false,
+  "menus.clock.time.hideSeconds": true,
+  "menus.clock.weather.location": "",
+  "theme.bar.buttons.windowtitle.enableBorder": false,
+  "bar.windowtitle.custom_title": true,
+  "theme.bar.buttons.volume.enableBorder": false,
+  "bar.volume.middleClick": "pavucontrol",
+  "bar.network.label": false,
+  "bar.bluetooth.label": false,
+  "bar.battery.label": false,
+  "theme.bar.buttons.systray.enableBorder": false,
+  "bar.clock.format": "%a %b %d  %I:%M %p",
+  "bar.media.show_active_only": true,
+  "bar.notifications.show_total": false,
+  "bar.notifications.hideCountWhenZero": true,
+  "theme.osd.enable": true,
+  "theme.osd.location": "top",
+  "theme.osd.orientation": "horizontal",
+  "menus.clock.weather.enabled": false,
+  "menus.clock.weather.unit": "metric",
+  "menus.dashboard.controls.enabled": true,
+  "menus.dashboard.stats.enable_gpu": false,
+  "menus.dashboard.shortcuts.enabled": false,
+  "menus.dashboard.powermenu.avatar.image": "/home/rangeler/Pictures/_Photos_20220320_130554_IMG_0434.JPG"
+}

@@ -1,0 +1,91 @@
+/* Catppuccin Colors Palette */
+
+@define-color base #1e1e2e;
+@define-color blue #89b4fa;
+@define-color brightyellow #f9e2af;
+@define-color red #f38ba8;
+@define-color surface2 #585b70;
+@define-color teal #94e2d5;
+
+* {
+    font-family: "Iosevka NFM", "JetBrains Mono";
+    border: none;
+    /*background-color: @base;*/
+    /*border-radius: 15px;*/
+}
+
+
+/* -----------------------------------------------------
+* Waybar
+* ----------------------------------------------------- */
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.0);
+    background: transparent;
+    color: white;
+}
+
+
+/* -----------------------------------------------------
+* Launcher
+* ----------------------------------------------------- */
+#custom-launcher {
+    background-color: @base;
+    border-radius: 15px;
+    color: @teal;
+    font-family: "JetBrains Mono";
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+
+/* -----------------------------------------------------
+* Workspaces
+* ----------------------------------------------------- */
+#workspaces {
+    margin-left: 12pt;
+    background-color: @base;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#workspaces button {
+    color: #585b70;
+}
+
+#workspaces button:not(:first-child) {
+    margin-left: 2pt;
+}
+
+#workspaces button.visible {
+    color: #89b4fa;
+}
+
+#workspaces button.active {
+    color: @red;
+}
+
+#workspaces button:hover, #workspaces button:focus {
+    background: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#workspaces button:hover:not(.active):not(.visible), #workspaces button:focus:not(.active):not(.visible) {
+    color: #9399b2;
+}
+
+
+
+/* -----------------------------------------------------
+* Clock
+* ----------------------------------------------------- */
+#clock {
+    background-color: @base;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: @brightyellow;
+}
